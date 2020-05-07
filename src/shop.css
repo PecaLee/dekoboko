@@ -6,7 +6,7 @@
     flex-wrap: wrap;
 }
 
-.bigBox img {
+.innerBox img {
     height: auto;
 }
 
@@ -17,26 +17,26 @@
     align-items: center;
 }
 
-.innerBox {
+.volBox .innerBox {
     display: flex;
     justify-content: space-between;
 }
 
-.innerBox:first-child img {
+.volBox .innerBox:first-child img {
     width: 100%;
 }
 
-.innerBox:nth-child(2) img {
+.volBox .innerBox:nth-child(2) img {
     margin: 1em 0 0 0;
     width: 30%;
 }
 
-.innerBox:last-child {
+.volBox .innerBox:last-child {
     margin-top: 1em;
     margin-bottom: 3em;
 }
 
-.innerBox:last-child ul {
+.volBox .innerBox:last-child ul {
     font-family: "Kosugi", sans-serif;
     font-size: 1rem;
     line-height: 1.2rem;
