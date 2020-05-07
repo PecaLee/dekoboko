@@ -1,5 +1,6 @@
 @import url("reset.css");
 @import url("menu.css");
+@import url("about.css");
 @import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital@1&family=Kosugi&display=swap');
 
 /* 
@@ -10,5 +11,9 @@ font-family: 'Courier Prime', monospace;
 body{
     width: 100%;
     height: 100%;
+}
+
+*{
+    box-sizing: border-box;
 }
 
