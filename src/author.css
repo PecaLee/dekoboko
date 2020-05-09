@@ -1,5 +1,96 @@
 body {
     width: 100%;
+    background-image: url("../src/dekoboko_bg.png");
+    background-color: cadetblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.artists {
+    font-family: "Courier Prime", monospace;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 1.8rem;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.artists_inner {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.artistsBox {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+
+.artistsBox_inner {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0 15px 0;
+}
+
+.innerBox {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border-radius: 50%;
+    border: black solid 0.8px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.innerBox_text {
+    background-color: #b4b2f4;
+    font-family: "Kosugi", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0.05rem;
+    display: none;
+}
+
+.innerBox_text ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.innerBox_text ul li:first-child {
+    font-size: 1.6rem;
+}
+
+.innerBox_text ul li:last-child {
+    margin-top: 10px;
+}
+
+.artistsBox_inner:hover .innerBox_photo {
+    display: none;
+}
+
+.artistsBox_inner:hover .innerBox_text {
+    display: flex;
+}
+
+.menu ul li {
+    background-color: white;
+    padding: 0.5em;
+    border-radius: 0.25em;
+}
+
+/*
+body {
+    width: 100%;
     display: flex;
     justify-content: center;
 }
@@ -68,3 +159,6 @@ body {
 .artistsBox_inner:hover .innerBox_text {
     display: flex;
 }
+
+
+*/

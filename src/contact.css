@@ -1,0 +1,40 @@
+.contactBox {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.contactTitle {
+    width: 410px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-left: 1em;
+    padding-top: 1em;
+    font-family: "Courier Prime", monospace;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 2rem;
+}
+
+form {
+    width: 410px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form * {
+    width: 390px;
+    font-size: 1rem;
+    margin: 0.7em 0 0.7em 0;
+}
+
+form textarea {
+    height: 430px;
+    resize: none;
+}
