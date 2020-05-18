@@ -3,6 +3,10 @@
     height: 100%;
 }
 
+.photoFrame div:nth-child(2n) {
+    background-color: gray;
+}
+
 .bookVol {
     width: 100%;
     height: 100vh;
@@ -27,10 +31,44 @@
 .bookVol ul li img {
     height: 100%;
     width: auto;
+    cursor: pointer;
 }
 
 .goToShop {
-    background-color: seagreen;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.goToShop .goToShopDetail {
+    width: 25%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.goToShop .goToShopDetail .textBox {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-right: 30px;
+}
+
+.goToShopDetail .textBox ul:first-child {
+    width: 230px;
+}
+
+.goToShopDetail .textBox ul:last-child {
+    padding-left: 15px;
+}
+
+.goToShopDetail .imgBox img {
+    width: 80%;
+    height: auto;
 }
 
 /**/
