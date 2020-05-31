@@ -1,0 +1,52 @@
+@media (max-width: 414px) {
+    html {
+        width: 100%;
+    }
+
+    body {
+        width: 100%;
+    }
+
+    .menu ul li {
+        font-size: 0.8rem;
+    }
+
+    .info {
+        font-size: 0.9rem;
+    }
+
+    .info ul li:first-child {
+        font-size: 1.1rem;
+    }
+
+    .about ul {
+        width: 90%;
+        background-color: rgba(255, 255, 255, 0.7);
+    }
+
+    .artists ul li {
+        font-size: 1.3rem;
+    }
+
+    .photoFrame {
+        display: none;
+    }
+
+    .mobile_shop {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .mobile_shop h1 a {
+        color: black;
+        font-size: 1.4rem;
+        text-decoration: none;
+        letter-spacing: -1;
+        font-family: "Courier Prime", monospace;
+        font-weight: 400;
+        font-style: italic;
+    }
+}
