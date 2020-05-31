@@ -55,6 +55,7 @@
 
     .goToShop {
         height: 100vh;
+        margin-bottom: 80px;
     }
 
     .goToShop .goToShopDetail {
@@ -86,7 +87,6 @@
     }
 
     .textBox ul:last-child li:last-child a {
-        font-weight: bold;
         color: red;
         text-decoration: none;
     }

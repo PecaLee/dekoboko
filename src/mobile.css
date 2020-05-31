@@ -49,4 +49,18 @@
         font-weight: 400;
         font-style: italic;
     }
+
+    .artistsBox {
+        grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+    }
+
+    .artistsBox_inner {
+        width: 120px;
+        height: 120px;
+    }
+
+    .artistsBox_inner::after {
+        height: 120px;
+        width: 120px;
+    }
 }
