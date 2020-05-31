@@ -45,3 +45,29 @@
         display: none;
     }
 }
+
+.textBox {
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+    line-height: 1.4rem;
+}
+
+.textBox div {
+    display: flex;
+    flex-direction: column;
+}
+
+.textBox div:last-child {
+    margin-top: 1em;
+}
+
+.textBox div:last-child span:last-child {
+    margin-top: 1em;
+    text-align: right;
+}
+
+.textBox div:last-child span:last-child a {
+    text-decoration: none;
+    color: red;
+}
