@@ -26,6 +26,11 @@ body {
     align-items: center;
 }
 
+.artists a {
+    text-decoration: none;
+    color: black;
+}
+
 .artists ul {
     display: flex;
     flex-direction: column;
